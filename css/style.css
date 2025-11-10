@@ -1,0 +1,27 @@
+/* style.css personalizado */
+
+/* Activar desplazamiento suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Evitar que el header tape las secciones al hacer clic */
+:target {
+  scroll-margin-top: 9rem; /* Ajustá este valor según el alto de tu header */
+}
+
+/* Tipografía y fondo */
+body {
+  background: linear-gradient(135deg, #e0f2fe, #fef9c3, #fef3c7);
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+}
